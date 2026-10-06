@@ -1,0 +1,55 @@
+{
+  "name": "ingeno",
+  "owner": {
+    "name": "Ingeno",
+    "email": "dev@ingeno.ca"
+  },
+  "metadata": {
+    "description": "Marketplace unique de tous les plugins Claude Code d'Ingeno hébergés sur GitHub."
+  },
+  "plugins": [
+    {
+      "name": "ingeno-bizdev",
+      "description": "Ingeno business development skills: event contacts, prospecting and sales support.",
+      "source": {
+        "source": "github",
+        "repo": "ingeno/ingeno-bizdev-claude-plugin"
+      }
+    },
+    {
+      "name": "filon",
+      "description": "Filon: AI-native delivery pipeline. Raw intent to production through six stages, optional risk-recommended gates, write-time spec sync, and deterministic guard hooks.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ingeno/ingeno-dev-claude-plugins.git",
+        "path": "plugins/filon-plugin"
+      }
+    },
+    {
+      "name": "ingeno-delivery",
+      "description": "Delivery process orchestration: phase-driven workflow, specialist dev team, quality gates, and code review.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ingeno/ingeno-dev-claude-plugins.git",
+        "path": "plugins/ingeno-delivery-plugin"
+      }
+    },
+    {
+      "name": "ingeno-frontend",
+      "description": "Ingeno frontend code standards: stack, TypeScript, React, state, API, forms, i18n, quality.",
+      "source": {
+        "source": "github",
+        "repo": "ingeno/ingeno-frontend-skills"
+      }
+    },
+    {
+      "name": "ingeno-frontend-process",
+      "description": "Ingeno frontend delivery process: workflow, code review, CI/CD, onboarding.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ingeno/ingeno-frontend-skills.git",
+        "path": "process"
+      }
+    }
+  ]
+}
