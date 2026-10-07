@@ -4,6 +4,11 @@
 # extended on purpose: they also turn on branch protection with required
 # reviews and signed commits, which this repository does not use.
 
+repository:
+  # Public so Claude Desktop's "Add marketplace" can sync it without GitHub auth.
+  private: false
+  visibility: public
+
 teams:
   # Every Ingeno teammate installs plugins from this repository through the
   # `ingeno` Claude Code marketplace, so the whole team needs to read it.
