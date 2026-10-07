@@ -1,0 +1,7 @@
+{
+  "name": "ingeno-test",
+  "description": "Test plugin to validate the Ingeno marketplace sync from claude.ai admin settings.",
+  "version": "0.1.0",
+  "author": { "name": "Ingeno", "email": "dev@ingeno.ca" },
+  "license": "MIT"
+}

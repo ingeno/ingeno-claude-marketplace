@@ -9,6 +9,11 @@
   },
   "plugins": [
     {
+      "name": "ingeno-test",
+      "description": "Test plugin to validate the marketplace sync.",
+      "source": "./plugins/ingeno-test"
+    },
+    {
       "name": "ingeno-bizdev",
       "description": "Ingeno business development skills: event contacts, prospecting and sales support.",
       "source": {
