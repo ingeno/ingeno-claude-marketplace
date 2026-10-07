@@ -1,0 +1,11 @@
+# Applied by the Settings app (github.com/apps/settings) on every push to main.
+#
+# Access only. The org-wide defaults (.github:.github/_customers.yml) are not
+# extended on purpose: they also turn on branch protection with required
+# reviews and signed commits, which this repository does not use.
+
+teams:
+  # Every Ingeno teammate installs plugins from this repository through the
+  # `ingeno` Claude Code marketplace, so the whole team needs to read it.
+  - name: ingeno
+    permission: pull
